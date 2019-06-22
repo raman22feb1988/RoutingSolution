@@ -10,4 +10,18 @@
     <string name="drop">Drop Off</string>
     <string name="latitude">Latitude:</string>
     <string name="longitude">Longitude:</string>
+    <string name="pickup">Select pick up location</string>
+    <string name="dropoff">Select drop off location</string>
+    <string name="streetview">Start navigation</string>
+    <string name="mapview">Stop navigation</string>
+    <string name="ok">OK</string>
+    <string name="search">Search for a place</string>
+    <string name="manage">Manage waypoints</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="insert">Insert before this</string>
+    <string name="add">Add new waypoint</string>
+    <string name="back">Back</string>
+    <string name="reset">Reset</string>
+    <string name="eta">View ETA</string>
 </resources>

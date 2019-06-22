@@ -20,6 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Waypoints"
+            android:label="@string/manage" />
 
         <meta-data
             android:name="com.here.android.maps.appid" android:value="NKLZKx92mb6QzLBiFCaU" />

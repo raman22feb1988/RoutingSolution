@@ -12,9 +12,7 @@ import com.here.android.mpa.search.AutoSuggest;
 
 import java.util.List;
 
-public interface AsyncResponse {
-    void processFinish1(String output1, String output2, boolean output3);
+public interface AsyncResponse2 {
+    void processFinish1(String output1, String output2);
     void processFinish2(List<AutoSuggest> output1, String output2);
-    void processFinish3(List<AutoSuggest> output1, String output2);
-    void processFinish4(String output1, String output2);
 }

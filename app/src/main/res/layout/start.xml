@@ -8,6 +8,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/search1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:hint="@string/search"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/reset1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset" />
+
+        </LinearLayout>
+
         <!-- Map Fragment embedded with the map object -->
         <fragment
             class="com.here.android.mpa.mapping.SupportMapFragment"
